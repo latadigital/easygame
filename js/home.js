@@ -88,43 +88,43 @@ function initHome() {
 	ctx.fill();
 	ctx.closePath();
 	
-	canvas = document.getElementById('canvas-presentation-blinky');
-	canvas.setAttribute('width', '50');
-	canvas.setAttribute('height', '50');
-	if (canvas.getContext) { 
-		ctx = canvas.getContext('2d');
-	}
-	ctx.fillStyle = GHOST_BLINKY_COLOR;
-	drawHelperGhost(ctx, 25, 25, 1, 0, 0, 0);
+	// canvas = document.getElementById('canvas-presentation-blinky');
+	// canvas.setAttribute('width', '50');
+	// canvas.setAttribute('height', '50');
+	// if (canvas.getContext) { 
+	// 	ctx = canvas.getContext('2d');
+	// }
+	// ctx.fillStyle = GHOST_BLINKY_COLOR;
+	// drawHelperGhost(ctx, 25, 25, 1, 0, 0, 0);
 	
-	canvas = document.getElementById('canvas-presentation-pinky');
-	canvas.setAttribute('width', '50');
-	canvas.setAttribute('height', '50');
-	if (canvas.getContext) { 
-		ctx = canvas.getContext('2d');
-	}
-	ctx.fillStyle = GHOST_PINKY_COLOR;
-	drawHelperGhost(ctx, 25, 25, 1, 0, 0, 0);
+	// canvas = document.getElementById('canvas-presentation-pinky');
+	// canvas.setAttribute('width', '50');
+	// canvas.setAttribute('height', '50');
+	// if (canvas.getContext) { 
+	// 	ctx = canvas.getContext('2d');
+	// }
+	// ctx.fillStyle = GHOST_PINKY_COLOR;
+	// drawHelperGhost(ctx, 25, 25, 1, 0, 0, 0);
 	
-	canvas = document.getElementById('canvas-presentation-inky');
-	canvas.setAttribute('width', '50');
-	canvas.setAttribute('height', '50');
-	if (canvas.getContext) { 
-		ctx = canvas.getContext('2d');
-	}
-	ctx.fillStyle = GHOST_INKY_COLOR;
-	drawHelperGhost(ctx, 25, 25, 1, 0, 0, 0);
+	// canvas = document.getElementById('canvas-presentation-inky');
+	// canvas.setAttribute('width', '50');
+	// canvas.setAttribute('height', '50');
+	// if (canvas.getContext) { 
+	// 	ctx = canvas.getContext('2d');
+	// }
+	// ctx.fillStyle = GHOST_INKY_COLOR;
+	// drawHelperGhost(ctx, 25, 25, 1, 0, 0, 0);
 	
-	canvas = document.getElementById('canvas-presentation-clyde');
-	canvas.setAttribute('width', '50');
-	canvas.setAttribute('height', '50');
-	if (canvas.getContext) { 
-		ctx = canvas.getContext('2d');
-	}
-	ctx.fillStyle = GHOST_CLYDE_COLOR;
-	drawHelperGhost(ctx, 25, 25, 1, 0, 0, 0);
+	// canvas = document.getElementById('canvas-presentation-clyde');
+	// canvas.setAttribute('width', '50');
+	// canvas.setAttribute('height', '50');
+	// if (canvas.getContext) { 
+	// 	ctx = canvas.getContext('2d');
+	// }
+	// ctx.fillStyle = GHOST_CLYDE_COLOR;
+	// drawHelperGhost(ctx, 25, 25, 1, 0, 0, 0);
 	
-	startPresentation();
+	// startPresentation();
 }
 
 function startPresentation() { 

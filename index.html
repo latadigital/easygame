@@ -219,8 +219,11 @@
       <!-- <h3>Lucio PANEPINTO<br /><em>2015</em></h3> -->
       <canvas id="canvas-home-title-pacman"></canvas>
       <div id="presentation">
-        <div id="presentation-titles">caracter &nbsp;/&nbsp; nombre</div>
-        <canvas id="canvas-presentation-blinky"></canvas>
+        <div id="presentation-titles">
+          ¡PrepArate! suscribete para conocer las mejores ofertas que Easy.cl trae para ti en este
+          Cyber Easy.
+        </div>
+        <!-- <canvas id="canvas-presentation-blinky"></canvas>
         <div id="presentation-character-blinky">- shadow</div>
         <div id="presentation-name-blinky">"blinky"</div>
         <canvas id="canvas-presentation-pinky"></canvas>
@@ -231,13 +234,15 @@
         <div id="presentation-name-inky">"inky"</div>
         <canvas id="canvas-presentation-clyde"></canvas>
         <div id="presentation-character-clyde">- pokey</div>
-        <div id="presentation-name-clyde">"clyde"</div>
+        <div id="presentation-name-clyde">"clyde"</div> -->
       </div>
       <!-- <canvas id="trailer"></canvas> -->
-      <div class="help-button">- Ayuda -</div>
-      <a class="sound" href="javascript:void(0);" data-sound="on"
-        ><img src="img/sound-on.png" alt="" border="0"
-      /></a>
+      <div class="footer">
+        <div class="help-button">- Ayuda -</div>
+        <a class="sound" href="javascript:void(0);" data-sound="on"
+          ><img src="img/sound-on.png" alt="" border="0"
+        /></a>
+      </div>
       <!-- <a class="github" target="_blank" href="https://github.com/luciopanepinto/pacman"
         ><img src="img/github.png" alt="GitHub - Lucio PANEPINTO - Pac-Man"
       /></a> -->
@@ -251,7 +256,7 @@
     </div>
 
     <div id="panel">
-      <h1>Easy.cl</h1>
+      <!-- <h1>Easy.cl</h1> -->
       <!-- <a class="putchu" target="_top" href="http://www.putchu.be"
         ><img
           src="http://www.putchu.be/img/intro/player.png"
@@ -260,13 +265,15 @@
         />www.putchu.be</a
       > -->
       <canvas id="canvas-panel-title-pacman"></canvas>
-      <div id="score">
-        <h2>1UP</h2>
-        <span>00</span>
-      </div>
-      <div id="highscore">
-        <h2>Marcador</h2>
-        <span>00</span>
+      <div class="scores">
+        <div id="score">
+          <h2>1UP</h2>
+          <span>00</span>
+        </div>
+        <div id="highscore">
+          <h2>Marcador</h2>
+          <span>00</span>
+        </div>
       </div>
       <div id="board">
         <div class="canvas">
@@ -300,10 +307,12 @@
         <canvas id="canvas-level-fruits"></canvas>
       </div>
       <div id="message"></div>
-      <div class="help-button">- Ayuda -</div>
-      <a class="sound" href="javascript:void(0);" data-sound="on"
+      <div class="footer--game">
+        <div class="help-button">- Ayuda -</div>
+        <a class="sound" href="javascript:void(0);" data-sound="on"
         ><img src="img/sound-on.png" alt="" border="0"
       /></a>
+      </div>
     </div>
   </body>
 </html>
