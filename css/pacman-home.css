@@ -26,6 +26,7 @@ body {
 	left: 182px;
 	height: 100px;
 	width: 118px;
+	display: none;
 }
 #canvas-panel-title-pacman { 
 	background-color: #bd1b1b;
@@ -34,6 +35,7 @@ body {
 	left: 47px;
 	height: 32px;
 	width: 38px;
+	display: none;
 }
 
 #presentation { 
